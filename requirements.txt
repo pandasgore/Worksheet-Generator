@@ -1,0 +1,8 @@
+reportlab
+python-docx
+sympy
+jinja2
+pathlib
+google-adk
+flask
+python-dotenv

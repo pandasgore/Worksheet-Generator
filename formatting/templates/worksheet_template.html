@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Worksheet Plan</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2rem; }
+        h1 { margin-bottom: 0; }
+        h2 { margin-top: 2rem; }
+        .problem { margin-bottom: 1rem; }
+        .notes { font-style: italic; }
+    </style>
+</head>
+<body>
+    <h1>Grade {{ plan.grade }} Worksheet</h1>
+    <p><strong>Concept:</strong> {{ plan.concept_text }}</p>
+    <p><strong>Difficulty:</strong> {{ plan.difficulty_plan.difficulty_level|default("medium") }}</p>
+
+    <h2>Problems</h2>
+    <ol>
+        {% for problem in plan.problems %}
+        <li class="problem">
+            <p>{{ problem.prompt_stub }}</p>
+            <p class="notes">Solution plan: {{ problem.answer_plan }}</p>
+        </li>
+        {% endfor %}
+    </ol>
+
+    {% if plan.teacher_notes %}
+    <h2>Teacher Notes</h2>
+    <ul>
+        {% for note in plan.teacher_notes %}
+        <li>{{ note }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</body>
+</html>
+

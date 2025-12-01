@@ -1,0 +1,61 @@
+{
+  "teacher_profile": {
+    "name": "Unknown Teacher",
+    "preferred_grade": 7,
+    "default_problem_count": 10,
+    "include_teacher_notes": false,
+    "include_solution_guidance": false
+  },
+  "recent_requests": [
+    {
+      "prompt": "Create a hard worksheet for grade 7 students on the topic linear relationship tables graphs. Include approximately 5 problems.",
+      "session_id": "web_session",
+      "user_id": "web_teacher"
+    },
+    {
+      "prompt": "Create a medium worksheet for grade 7 students on the topic linear relationship tables graphs. Include approximately 5 problems.",
+      "session_id": "web_session",
+      "user_id": "web_teacher"
+    },
+    {
+      "prompt": "Create a medium worksheet for grade 7 students on the topic linear relationship tables graphs. Include approximately 5 problems.",
+      "session_id": "web_session",
+      "user_id": "web_teacher"
+    },
+    {
+      "prompt": "Create a medium worksheet for grade 7 students on the topic linear relationship tables graphs. Include approximately 5 problems.",
+      "session_id": "web_session",
+      "user_id": "web_teacher"
+    },
+    {
+      "prompt": "Create a medium worksheet for grade 7 students on the topic linear relationship tables graphs. Include approximately 5 problems.",
+      "session_id": "web_session",
+      "user_id": "web_teacher"
+    },
+    {
+      "prompt": "Create a medium worksheet for grade 7 students on the topic linear relationship tables graphs. Include approximately 5 problems.",
+      "session_id": "web_session",
+      "user_id": "web_teacher"
+    },
+    {
+      "prompt": "Create a medium worksheet for grade 7 students on the topic linear relationship tables graphs. Include approximately 5 problems.",
+      "session_id": "web_session",
+      "user_id": "web_teacher"
+    },
+    {
+      "prompt": "Create a medium worksheet for grade 7 students on the topic linear relationship tables graphs. Include approximately 5 problems.",
+      "session_id": "web_session",
+      "user_id": "web_teacher"
+    },
+    {
+      "prompt": "Create a medium worksheet for grade 7 students on the topic linear relationship tables graphs. Include approximately 5 problems.",
+      "session_id": "web_session",
+      "user_id": "web_teacher"
+    },
+    {
+      "prompt": "Create a medium worksheet for grade 7 students on the topic linear relationship tables graphs. Include approximately 5 problems.",
+      "session_id": "web_session",
+      "user_id": "web_teacher"
+    }
+  ]
+}
