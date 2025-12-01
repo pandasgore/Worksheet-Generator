@@ -21,13 +21,19 @@ An AI-powered tool that generates complete math worksheets for grades 1-8. Teach
 pip install -r requirements.txt
 
 # 2. Set your API key
+# Windows (Command Prompt):
+set GOOGLE_API_KEY=your-gemini-api-key
+
+# Windows (PowerShell):
+$env:GOOGLE_API_KEY="your-gemini-api-key"
+
+# Mac/Linux:
 export GOOGLE_API_KEY="your-gemini-api-key"
 
 # 3. Run the web app
 python web/app.py
 
-# 4. Open in browser
-# http://localhost:5000
+# 4. Open http://localhost:5000
 ```
 
 ---
